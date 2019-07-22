@@ -5,6 +5,6 @@ jobs:
       - image: circleci/node:8.11.3
 
     steps:
-      - run: checkout
+      - checkout
       - run: npm install
       - run: npm test
